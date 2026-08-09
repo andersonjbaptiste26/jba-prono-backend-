@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .routers import matches, predictions, teams, bets
+from app.routers import matches, predictions, teams, bets
 
 app = FastAPI(
     title="JBa Prono API",
